@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    scroll-behavior: smooth;
+}
+
+
+
+ul li{
+    list-style: none;
+}
+
+/* Nav section start  */
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white !important;
+    transition: .5s;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: gray !important;
+}
+
+.fab{
+    font-size: 30px !important;
+}
+
+.navbar-nav .nav-item{
+    margin-left: 35px
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+
+}
+
+.btn{
+    padding: 10px 35px !important;
+}
+
+header{
+    background-image: url('../Pics/Cover.jpg');
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+    border-bottom: 7px solid red ;
+}
+
+/* banner section  */
+
+.request-quote{
+    width: 440px !important;
+    color: white;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.request-quote-content{
+    padding-left: 20px;
+}
+
+.request-quote h2{
+    padding-top: 30px;
+}
+
+.form-control{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 400px !important;
+    border-radius: none !important;
+    height: 50px;
+}
+
+.btn-red{
+    margin-left: 274px;
+    margin-bottom: 30px;
+}
+
+/* quote Section start  */
+
+.quote-section{
+    position: relative;
+}
+
+.down-design-black{
+    width: 40px;
+    height: 40px;
+    background-color: #292929;
+    position: absolute;
+    left: 50%;
+    bottom: -5%;
+    transform: rotate(45deg);
+}
+
+
+.bg-kalo{
+    background-color: #292929 !important;
+}
+
+.quote{
+    color: white;
+    font-size: 20px;
+}
+
+.btn-quote{
+    margin-left: 139px;
+}
+
+/* Quality Inspections Start  */
+
+.quality-inspections{
+    border-bottom: 7px solid #d7d7d7;
+}
+
+.down-design-white{   
+    width: 40px;
+    height: 40px;
+    background-color: #e3e3e3;
+    position: absolute;
+    left: 50%;
+    top: -8%;
+    transform: rotate(45deg);
+}
+
+
+.bg-grey{
+    background-color: #e3e3e3;
+}
+
+.quality-inspect-content{
+    padding: 80px;
+}
+
+/* Service section Start  */
+
+.fa-check-square{
+    color: #c41e1e;
+    font-size: larger;
+    margin-right: 8px;
+}
+
+.service-ul, .service-li{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.service-li{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px !important;
+}
+
+.family-pic{
+    width: 100%;
+    padding-right: 28px !important;
+}
+
+/* House Pic section Start  */
+
+.houses{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0;
+}
+
+.houses img{
+    width: 100%;
+}
+
+/* Quote 2.0 section start  */
+
+.quote-2{
+    background-image: url('../Pics/footer\ up.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-top: 50px;
+    height: 250px;
+    color: white;
+}
+
+.quote-2 p{
+    font-size: larger;
+    padding-top: 50px;
+}
+
+/* Award Section Start  */
+
+.award-section{
+    height: 250px;
+    border-bottom: 7px solid red;
+}
+
+.awards{
+    margin-top: 70px;
+}
+
+/* Footer Section Start  */
+
+footer{
+    height: 80px;
+}
+
+.footer-text{
+    padding-top: 40px;
+    transform: translateY(-20%);
+}
+
+
+/* ---------Responsive CSS----------  */
+
+@media (max-width: 575.98px){
+    header{
+        height: 800px !important;
+    }
+    .nav-link{
+        text-align: center;
+        margin-left: -40px;
+    }
+    .request-quote{
+        margin-left: 50px;
+    }
+    .btn-quote{
+        margin-bottom: 4rem !important;
+        margin-left: 10rem;
+        margin-top: 2rem;
+        padding: 20px 60px !important;
+    }
+    .quote{
+        text-align: center;
+        font-size: 25px;
+    }
+    .down-design-black{
+        left: 47%;
+    }
+    .service-li, .service-p b{
+        font-size: 30px;
+    }
+    .btn-service{
+        padding: 20px;
+    }
+}
